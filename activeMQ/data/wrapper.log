@@ -1,0 +1,212 @@
+STATUS | wrapper  | 2014/05/19 22:54:50 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2014/05/19 22:54:51 | Launching a JVM...
+INFO   | jvm 1    | 2014/05/19 22:54:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2014/05/19 22:54:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2014/05/19 22:54:51 | 
+INFO   | jvm 1    | 2014/05/19 22:54:51 | Java Runtime: Sun Microsystems Inc. 1.6.0_45 /usr/java/jdk1.6.0_45/jre
+INFO   | jvm 1    | 2014/05/19 22:54:51 |   Heap sizes: current=244416k  free=234185k  max=932096k
+INFO   | jvm 1    | 2014/05/19 22:54:51 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Xmx1024m -Djava.library.path=../../bin/linux-x86-64/ -Dwrapper.key=PJs9Ra2ueNhPrYRL -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=19999 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2014/05/19 22:54:51 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 1    | 2014/05/19 22:54:51 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 1    | 2014/05/19 22:54:51 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 1    | 2014/05/19 22:54:51 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 1    | 2014/05/19 22:54:51 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2014/05/19 22:54:52 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@62facf0b: startup date [Mon May 19 22:54:52 KST 2014]; root of context hierarchy
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | PListStore:[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage ] started
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/kahadb]
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:2011/jmxrmi
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | KahaDB is version 4
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2014/05/19 22:54:54 |  INFO | Recovery replayed 1 operations from the journal in 0.012 seconds.
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | ActiveMQ 5.6.0 JMS Message Broker (localhost) is starting
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | For help or more information please see: http://activemq.apache.org/
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | Listening for connections at: tcp://htcaas-hieu.kisti.re.kr:61616
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | Connector openwire Started
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | ActiveMQ JMS Message Broker (localhost, ID:htcaas-hieu.kisti.re.kr-39414-1400507694954-0:1) started
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  WARN | Store limit is 102400 mb, whilst the data directory: /root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/kahadb only has 41680 mb of usable space
+INFO   | jvm 1    | 2014/05/19 22:54:55 | ERROR | Temporary Store limit is 51200 mb, whilst the temporary data directory: /root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage only has 41680 mb of usable space
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | jetty-7.6.1.v20120215
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | started o.e.j.w.WebAppContext{/admin,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/admin/}
+INFO   | jvm 1    | 2014/05/19 22:54:55 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | ActiveMQ Console at http://0.0.0.0:8161/admin
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | started o.e.j.w.WebAppContext{/demo,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/demo/}
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | ActiveMQ Web Demos at http://0.0.0.0:8161/demo
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | started o.e.j.w.WebAppContext{/fileserver,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/fileserver/}
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | RESTful file access application at http://0.0.0.0:8161/fileserver
+INFO   | jvm 1    | 2014/05/19 22:54:56 |  INFO | Started SelectChannelConnector@0.0.0.0:8161
+ERROR  | wrapper  | 2014/05/19 23:08:38 | JVM exited unexpectedly.
+STATUS | wrapper  | 2014/05/19 23:08:38 | JVM exited in response to signal SIGKILL (9).
+STATUS | wrapper  | 2014/05/19 23:08:42 | Launching a JVM...
+INFO   | jvm 2    | 2014/05/19 23:08:42 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2014/05/19 23:08:42 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2014/05/19 23:08:42 | 
+INFO   | jvm 2    | 2014/05/19 23:08:42 | Java Runtime: Sun Microsystems Inc. 1.6.0_45 /usr/java/jdk1.6.0_45/jre
+INFO   | jvm 2    | 2014/05/19 23:08:42 |   Heap sizes: current=244416k  free=234185k  max=932096k
+INFO   | jvm 2    | 2014/05/19 23:08:42 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Xmx1024m -Djava.library.path=../../bin/linux-x86-64/ -Dwrapper.key=cK52V7x8VOXmLO7F -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=19999 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2014/05/19 23:08:42 | ACTIVEMQ_HOME: ../..
+INFO   | jvm 2    | 2014/05/19 23:08:42 | ACTIVEMQ_BASE: ../..
+INFO   | jvm 2    | 2014/05/19 23:08:42 | ACTIVEMQ_CONF: ../../conf
+INFO   | jvm 2    | 2014/05/19 23:08:42 | ACTIVEMQ_DATA: ../../data
+INFO   | jvm 2    | 2014/05/19 23:08:42 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2014/05/19 23:08:42 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@513c6a22: startup date [Mon May 19 23:08:42 KST 2014]; root of context hierarchy
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | PListStore:[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage ] started
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/kahadb]
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:2011/jmxrmi
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | KahaDB is version 4
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | Recovering from the journal ...
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | Recovery replayed 2 operations from the journal in 0.012 seconds.
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | ActiveMQ 5.6.0 JMS Message Broker (localhost) is starting
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | For help or more information please see: http://activemq.apache.org/
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | Listening for connections at: tcp://htcaas-hieu.kisti.re.kr:61616
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | Connector openwire Started
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | ActiveMQ JMS Message Broker (localhost, ID:htcaas-hieu.kisti.re.kr-48782-1400508524485-0:1) started
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  WARN | Store limit is 102400 mb, whilst the data directory: /root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/kahadb only has 41679 mb of usable space
+INFO   | jvm 2    | 2014/05/19 23:08:44 | ERROR | Temporary Store limit is 51200 mb, whilst the temporary data directory: /root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage only has 41679 mb of usable space
+INFO   | jvm 2    | 2014/05/19 23:08:44 |  INFO | jetty-7.6.1.v20120215
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | started o.e.j.w.WebAppContext{/admin,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/admin/}
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | ActiveMQ Console at http://0.0.0.0:8161/admin
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | started o.e.j.w.WebAppContext{/demo,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/demo/}
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | ActiveMQ Web Demos at http://0.0.0.0:8161/demo
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | started o.e.j.w.WebAppContext{/fileserver,file:/root/workspace/HTCaaS_ext/activeMQ/webapps/fileserver/}
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | RESTful file access application at http://0.0.0.0:8161/fileserver
+INFO   | jvm 2    | 2014/05/19 23:08:45 |  INFO | Started SelectChannelConnector@0.0.0.0:8161
+INFO   | jvm 2    | 2014/05/19 23:38:46 |  WARN | Transport Connection to: tcp://127.0.0.1:40233 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 10:32:46 |  WARN | Transport Connection to: tcp://127.0.0.1:40581 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 10:33:06 |  WARN | Transport Connection to: tcp://127.0.0.1:40597 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 10:53:50 |  WARN | Transport Connection to: tcp://127.0.0.1:40617 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:12:40 |  WARN | Transport Connection to: tcp://127.0.0.1:40631 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:14:35 |  WARN | Transport Connection to: tcp://127.0.0.1:40652 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:24:30 |  WARN | Transport Connection to: tcp://127.0.0.1:40664 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:34:50 |  WARN | Transport Connection to: tcp://127.0.0.1:40675 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:35:05 |  WARN | Transport Connection to: tcp://127.0.0.1:40702 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2014/05/20 11:35:09 |  WARN | Transport Connection to: tcp://127.0.0.1:40779 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:37:08 |  WARN | Transport Connection to: tcp://127.0.0.1:40887 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:39:34 |  WARN | Transport Connection to: tcp://127.0.0.1:40995 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 11:39:57 |  WARN | Transport Connection to: tcp://127.0.0.1:41099 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:31:33 |  INFO | PListStore:[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage ] initialized
+INFO   | jvm 2    | 2014/05/20 15:33:40 |  WARN | Transport Connection to: tcp://127.0.0.1:41341 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2014/05/20 15:33:45 |  WARN | Transport Connection to: tcp://127.0.0.1:41718 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2014/05/20 15:33:46 |  WARN | Transport Connection to: tcp://127.0.0.1:41807 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2014/05/20 15:33:47 |  WARN | Transport Connection to: tcp://127.0.0.1:41900 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:33:48 |  WARN | Transport Connection to: tcp://127.0.0.1:41969 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2014/05/20 15:33:48 |  WARN | Transport Connection to: tcp://127.0.0.1:41969 failed: java.net.SocketException: Broken pipe
+INFO   | jvm 2    | 2014/05/20 15:33:54 |  WARN | Transport Connection to: tcp://127.0.0.1:42213 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:39:08 |  WARN | Transport Connection to: tcp://127.0.0.1:42328 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:40:00 |  WARN | Transport Connection to: tcp://127.0.0.1:42438 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:48:42 |  WARN | Transport Connection to: tcp://127.0.0.1:42561 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:48:42 |  WARN | Transport Connection to: tcp://127.0.0.1:42558 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:48:42 |  WARN | Transport Connection to: tcp://127.0.0.1:42560 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:48:42 |  WARN | Transport Connection to: tcp://127.0.0.1:42557 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:48:42 |  WARN | Transport Connection to: tcp://127.0.0.1:42559 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:56:20 |  WARN | Transport Connection to: tcp://127.0.0.1:43633 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:56:20 |  WARN | Transport Connection to: tcp://127.0.0.1:43631 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:56:20 |  WARN | Transport Connection to: tcp://127.0.0.1:43635 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:56:20 |  WARN | Transport Connection to: tcp://127.0.0.1:43632 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 15:56:20 |  WARN | Transport Connection to: tcp://127.0.0.1:43634 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 16:00:40 |  WARN | Transport Connection to: tcp://127.0.0.1:44817 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 16:00:40 |  WARN | Transport Connection to: tcp://127.0.0.1:44816 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 16:00:40 |  WARN | Transport Connection to: tcp://127.0.0.1:44813 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 16:00:40 |  WARN | Transport Connection to: tcp://127.0.0.1:44815 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 16:00:40 |  WARN | Transport Connection to: tcp://127.0.0.1:44814 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 17:35:14 |  WARN | Transport Connection to: tcp://127.0.0.1:52543 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 17:35:14 |  WARN | Transport Connection to: tcp://127.0.0.1:52542 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 17:35:14 |  WARN | Transport Connection to: tcp://127.0.0.1:52536 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 17:35:14 |  WARN | Transport Connection to: tcp://127.0.0.1:52537 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 17:35:14 |  WARN | Transport Connection to: tcp://127.0.0.1:52538 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:01:06 |  WARN | Transport Connection to: tcp://127.0.0.1:46472 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:01:06 |  WARN | Transport Connection to: tcp://127.0.0.1:46466 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:01:06 |  WARN | Transport Connection to: tcp://127.0.0.1:46469 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:01:06 |  WARN | Transport Connection to: tcp://127.0.0.1:46473 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:01:06 |  WARN | Transport Connection to: tcp://127.0.0.1:46470 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:26:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58016 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:26:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58015 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:26:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58018 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:26:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58019 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:26:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58017 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:30:52 |  WARN | Transport Connection to: tcp://127.0.0.1:59520 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:30:52 |  WARN | Transport Connection to: tcp://127.0.0.1:59531 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:30:52 |  WARN | Transport Connection to: tcp://127.0.0.1:59526 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:30:52 |  WARN | Transport Connection to: tcp://127.0.0.1:59529 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:30:52 |  WARN | Transport Connection to: tcp://127.0.0.1:59496 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:31:21 |  WARN | Transport Connection to: tcp://127.0.0.1:59548 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:31:21 |  WARN | Transport Connection to: tcp://127.0.0.1:59546 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:33:29 |  WARN | Transport Connection to: tcp://127.0.0.1:59961 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:33:29 |  WARN | Transport Connection to: tcp://127.0.0.1:59957 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:33:29 |  WARN | Transport Connection to: tcp://127.0.0.1:59958 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:33:29 |  WARN | Transport Connection to: tcp://127.0.0.1:59960 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 22:33:29 |  WARN | Transport Connection to: tcp://127.0.0.1:59959 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 23:46:42 |  WARN | Transport Connection to: tcp://127.0.0.1:55380 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 23:46:42 |  WARN | Transport Connection to: tcp://127.0.0.1:55381 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 23:46:42 |  WARN | Transport Connection to: tcp://127.0.0.1:55378 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 23:46:42 |  WARN | Transport Connection to: tcp://127.0.0.1:55379 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/20 23:46:42 |  WARN | Transport Connection to: tcp://127.0.0.1:55377 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 00:08:05 |  WARN | Transport Connection to: tcp://127.0.0.1:33299 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 00:08:05 |  WARN | Transport Connection to: tcp://127.0.0.1:33298 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 00:08:05 |  WARN | Transport Connection to: tcp://127.0.0.1:33295 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:17 |  WARN | Transport Connection to: tcp://127.0.0.1:38638 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:17 |  WARN | Transport Connection to: tcp://127.0.0.1:38633 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39083 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39085 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39082 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39084 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39081 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39089 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39087 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39086 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39090 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 02:25:59 |  WARN | Transport Connection to: tcp://127.0.0.1:39088 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40608 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40626 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40609 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40610 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40614 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40616 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40617 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40615 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40618 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 15:54:24 |  WARN | Transport Connection to: tcp://127.0.0.1:40625 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 16:22:41 |  WARN | Transport Connection to: tcp://127.0.0.1:56736 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 16:22:41 |  WARN | Transport Connection to: tcp://127.0.0.1:56730 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 16:22:41 |  WARN | Transport Connection to: tcp://127.0.0.1:56729 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52084 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52086 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52069 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52065 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52108 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52064 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52060 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52061 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52000 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:00 |  WARN | Transport Connection to: tcp://127.0.0.1:52058 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52055 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52063 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52163 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52082 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52156 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:51740 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52057 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52172 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52056 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 22:54:08 |  WARN | Transport Connection to: tcp://127.0.0.1:52067 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54733 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54716 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54785 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54743 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54699 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54721 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54730 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54663 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54746 failed: java.io.EOFException
+INFO   | jvm 2    | 2014/05/21 23:25:58 |  WARN | Transport Connection to: tcp://127.0.0.1:54794 failed: java.io.EOFException
+WARN   | wrapper  | 2014/05/21 23:33:22 | JVM process was still running after receiving a SIGCHLD signal.
+STATUS | wrapper  | 2014/05/21 23:33:22 | TERM trapped.  Shutting down.
+INFO   | jvm 2    | 2014/05/21 23:33:23 |  INFO | ActiveMQ Message Broker (localhost, ID:htcaas-hieu.kisti.re.kr-48782-1400508524485-0:1) is shutting down
+INFO   | jvm 2    | 2014/05/21 23:33:23 |  INFO | ActiveMQ Message Broker (localhost, ID:htcaas-hieu.kisti.re.kr-48782-1400508524485-0:1) is shutting down
+INFO   | jvm 2    | 2014/05/21 23:33:23 |  INFO | Connector openwire Stopped
+INFO   | jvm 2    | 2014/05/21 23:33:24 |  INFO | PListStore:[/root/workspace/HTCaaS_ext/activeMQ/bin/linux-x86-64/../../data/localhost/tmp_storage ] stopped
+INFO   | jvm 2    | 2014/05/21 23:33:24 |  INFO | Stopping async queue tasks
+INFO   | jvm 2    | 2014/05/21 23:33:24 |  INFO | Stopping async topic tasks
+INFO   | jvm 2    | 2014/05/21 23:33:24 |  INFO | Stopped KahaDB

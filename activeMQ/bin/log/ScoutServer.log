@@ -1,0 +1,50 @@
+[2014-06-08 15:01:57]  INFO - Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7d742700: startup date [Sun Jun 08 15:01:57 KST 2014]; root of context hierarchy
+[2014-06-08 15:01:57]  INFO - Loading XML bean definitions from class path resource [activemq.xml]
+[2014-06-08 15:01:58]  INFO - Loading XML bean definitions from class path resource [jetty.xml]
+[2014-06-08 15:01:58]  INFO - Loading properties file from URL [file:/root/workspace/TestActiveMQ/activeMQ/conf/credentials.properties]
+[2014-06-08 15:01:58]  INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47c297a3: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0,securityLoginService,securityConstraint,securityConstraintMapping,securityHandler,contexts,Server]; root of factory hierarchy
+[2014-06-08 15:01:58]  INFO - Successfully deleted temporary storage
+[2014-06-08 15:01:58]  INFO - PListStore:[/root/workspace/TestActiveMQ/activeMQ/data/localhost/tmp_storage ] started
+[2014-06-08 15:01:58]  INFO - Using Persistence Adapter: KahaDBPersistenceAdapter[/root/workspace/TestActiveMQ/activeMQ/data/kahadb]
+[2014-06-08 15:01:58]  INFO - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:2011/jmxrmi
+[2014-06-08 15:01:58]  INFO - KahaDB is version 4
+[2014-06-08 15:01:58]  INFO - Recovering from the journal ...
+[2014-06-08 15:01:58]  INFO - Recovery replayed 1 operations from the journal in 0.013 seconds.
+[2014-06-08 15:01:58]  INFO - ActiveMQ 5.6.0 JMS Message Broker (localhost) is starting
+[2014-06-08 15:01:58]  INFO - For help or more information please see: http://activemq.apache.org/
+[2014-06-08 15:01:59]  INFO - Listening for connections at: tcp://htcaas-hieu.kisti.re.kr:61616
+[2014-06-08 15:01:59]  INFO - Connector openwire Started
+[2014-06-08 15:01:59]  INFO - ActiveMQ JMS Message Broker (localhost, ID:htcaas-hieu.kisti.re.kr-59903-1402207318909-0:1) started
+[2014-06-08 15:01:59]  WARN - Store limit is 102400 mb, whilst the data directory: /root/workspace/TestActiveMQ/activeMQ/data/kahadb only has 40822 mb of usable space
+[2014-06-08 15:01:59] ERROR - Temporary Store limit is 51200 mb, whilst the temporary data directory: /root/workspace/TestActiveMQ/activeMQ/data/localhost/tmp_storage only has 40822 mb of usable space
+[2014-06-08 15:01:59]  INFO - jetty-7.6.1.v20120215
+[2014-06-08 15:01:59]  INFO - Refreshing Root WebApplicationContext: startup date [Sun Jun 08 15:01:59 KST 2014]; root of context hierarchy
+[2014-06-08 15:01:59]  INFO - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-embedded.xml]
+[2014-06-08 15:01:59]  INFO - Loading XML bean definitions from ServletContext resource [/WEB-INF/webconsole-query.xml]
+[2014-06-08 15:01:59]  INFO - Loading properties file from URL [file:/root/workspace/TestActiveMQ/activeMQ/conf/credentials.properties]
+[2014-06-08 15:01:59]  INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7f9360e7: defining beans [queueBrowser,messageQuery,queueConsumerQuery,connectionQuery,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,brokerQuery,sessionPool,connectionFactory]; root of factory hierarchy
+[2014-06-08 15:01:59]  INFO - ActiveMQ WebConsole initialized.
+[2014-06-08 15:01:59]  INFO - started o.e.j.w.WebAppContext{/admin,file:/root/workspace/TestActiveMQ/activeMQ/webapps/admin/}
+[2014-06-08 15:01:59]  INFO - Initializing Spring FrameworkServlet 'dispatcher'
+[2014-06-08 15:01:59]  INFO - FrameworkServlet 'dispatcher': initialization started
+[2014-06-08 15:01:59]  INFO - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun Jun 08 15:01:59 KST 2014]; parent: Root WebApplicationContext
+[2014-06-08 15:01:59]  INFO - Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[2014-06-08 15:01:59]  INFO - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@41e8e144: defining beans [handlerMapping,/createDestination.action,/deleteDestination.action,/createSubscriber.action,/deleteSubscriber.action,/sendMessage.action,/purgeDestination.action,/deleteMessage.action,/copyMessage.action,/moveMessage.action,/deleteJob.action,exceptionResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f9360e7
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/createDestination.action] onto handler '/createDestination.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/deleteDestination.action] onto handler '/deleteDestination.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/createSubscriber.action] onto handler '/createSubscriber.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/deleteSubscriber.action] onto handler '/deleteSubscriber.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/sendMessage.action] onto handler '/sendMessage.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/purgeDestination.action] onto handler '/purgeDestination.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/deleteMessage.action] onto handler '/deleteMessage.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/copyMessage.action] onto handler '/copyMessage.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/moveMessage.action] onto handler '/moveMessage.action'
+[2014-06-08 15:01:59]  INFO - Mapped URL path [/deleteJob.action] onto handler '/deleteJob.action'
+[2014-06-08 15:02:00]  INFO - FrameworkServlet 'dispatcher': initialization completed in 397 ms
+[2014-06-08 15:02:00]  INFO - ActiveMQ Console at http://0.0.0.0:8161/admin
+[2014-06-08 15:02:00]  INFO - started o.e.j.w.WebAppContext{/demo,file:/root/workspace/TestActiveMQ/activeMQ/webapps/demo/}
+[2014-06-08 15:02:00]  INFO - ActiveMQ Web Demos at http://0.0.0.0:8161/demo
+[2014-06-08 15:02:00]  INFO - started o.e.j.w.WebAppContext{/fileserver,file:/root/workspace/TestActiveMQ/activeMQ/webapps/fileserver/}
+[2014-06-08 15:02:00]  INFO - RESTful file access application at http://0.0.0.0:8161/fileserver
+[2014-06-08 15:02:00]  INFO - Started SelectChannelConnector@0.0.0.0:8161
+[2014-06-08 15:08:09]  WARN - Transport Connection to: tcp://127.0.0.1:53368 failed: java.io.EOFException
